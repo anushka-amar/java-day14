@@ -2,6 +2,8 @@ package algorithmprograms;
 
 public class Permutations {
 
+ /*   static method to calculate the number of
+  permutations of a given string and printing each of them. */
     public static void iterativePerm(String str){
         int len = str.length();
         int fact = factorial(len);
@@ -21,6 +23,8 @@ public class Permutations {
         }
     }
 
+    /* method to calculate
+factorial of the length of string */
     public static int factorial(int len){
         int fact = 1;
         for (int i=2; i<=len; i++){
