@@ -35,7 +35,5 @@ public class InsertionSort {
         for (String word: words){
             System.out.println(word);
         }
-
-
     }
 }
