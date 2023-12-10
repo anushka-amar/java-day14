@@ -14,6 +14,7 @@ target/
 misc.xml
 vcs.xml
 encodings.xml
+text1.txt
 
 ### Eclipse ###
 .apt_generated
